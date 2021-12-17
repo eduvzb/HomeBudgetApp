@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;600&family=Montserrat:wght@100;300;400;600;800&family=Poppins:wght@300;600;700&family=Roboto:wght@100;300;700&family=Rubik:wght@300;400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(33,50,68);
+    color: #fff;
+}
+
+h1 {
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+}
+
+h3 {
+    border-bottom: 2px solid #bbb;
+    color: azure;
+    text-align: left;
+    padding-bottom: .4rem;
+    margin-bottom: 1rem;
+}
+
+
+.title { 
+    background-color: rgb(11, 14, 34);
+    opacity: 0.8;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0 4px;
+}
+
+.container {
+   background-color: #34495e; 
+   padding: 20px;
+   border-radius: 3px;
+   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+   text-align: center;
+   min-width: 30rem;
+}
+
+.income-expense {
+    display: flex;;
+    justify-content: space-around;
+    gap: 12px;
+}
+
+.income-expense h4 {
+    margin: 6px;
+}
+
+.income-expense > div {
+    flex: 1;
+    text-align: center;
+    background-color:  rgb(11, 14, 34);
+    padding: .5rem 0 .8rem 0;
+    border-radius: 3px;
+    opacity: 0.8;
+}
+
+
+
+.income {
+    color: rgb(96, 211, 96);
+    font-weight: bold;
+}
+
+.onflow {
+    color: rgb(224, 66, 66);
+    font-weight: bold;
+}
+
+#balance {
+    color: rgb(77, 122, 218);
+    font-weight: bold;
+}
+
+input {
+    border: 1px solid silver;
+    color: rgb(11, 14, 34);
+    padding: 10px;
+    width: 100%;    
+    font-size: 16px;
+    outline: none;
+    margin-bottom: .8rem;
+    border-radius: 3px;
+}
+
+form > button {
+    background-color: steelblue;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 100%;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgb(84, 161, 224);
+}
+
+.button:active {
+    background-color: rgb(67, 115, 153);
+    transform: translateY(3px);
+}
+
+#error_msg {
+    color: red;
+    background-color: #ffff;
+    font-weight: bolder;
+    padding: 0 10px;
+}
